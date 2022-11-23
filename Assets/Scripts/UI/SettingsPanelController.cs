@@ -5,7 +5,7 @@ using UnityEngine.UI;
 using TMPro;
 using System;
 
-public class GameSettingsController : MonoBehaviour
+public class SettingsPanelController : MonoBehaviour
 {
     [System.Serializable]
     public class TabData

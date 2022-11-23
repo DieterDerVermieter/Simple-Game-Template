@@ -1,0 +1,43 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!114 &11400000
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 739bc372b93a60d4dab919e4df52d34b, type: 3}
+  m_Name: VideoSettings
+  m_EditorClassIdentifier: 
+  PossibleResolutions:
+  - DisplayName: 1920x1080 (16:9)
+    Width: 1920
+    Height: 1080
+  - DisplayName: 1440x1080 (4:3)
+    Width: 1440
+    Height: 1080
+  - DisplayName: 1280x720 (16:9)
+    Width: 1280
+    Height: 720
+  - DisplayName: 960x540 (16:9)
+    Width: 960
+    Height: 540
+  - DisplayName: 640x480 (4:3)
+    Width: 640
+    Height: 480
+  - DisplayName: 640x360 (16:9)
+    Width: 640
+    Height: 360
+  - DisplayName: 480x270 (16:9)
+    Width: 480
+    Height: 270
+  ResolutionIndex: 0
+  PossibleWindowModes:
+  - DisplayName: Fullscreen (Window)
+    Mode: 1
+  - DisplayName: Windowed
+    Mode: 3
+  WindowModeIndex: 0
